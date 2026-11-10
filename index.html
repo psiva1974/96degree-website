@@ -1,89 +1,59 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5edda">
-  <meta property="og:title" content="Paanagam | காபியும் >< கதையும்">
-  <meta property="og:description" content="A Tamil-rooted coffee, food and togetherness experience.">
-  <meta property="og:type" content="website">
-  <meta name="description" content="Paanagam — காபியும் >< கதையும். A Tamil-rooted food and coffee experience.">
-  <title>Paanagam | காபியும் >< கதையும்</title>
-  <style>
-    :root{--cream:#f5edda;--ivory:#fffaf0;--brown:#39251b;--muted:#806b59;--orange:#c86a2c;--gold:#d7a640;--line:#e6d8bd}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--brown);font-family:Georgia,'Noto Serif Tamil',serif}
-    a{color:inherit}.wrap{width:min(1120px,90%);margin:auto}.top{padding:18px 0;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-size:25px;font-weight:bold;letter-spacing:.04em}.brand-mark{width:58px;height:58px;flex:none}.brand-copy span{display:block;font-family:Arial,sans-serif;font-size:11px;letter-spacing:.28em;color:var(--muted);margin-top:4px}.nav{display:flex;gap:24px;font:14px Arial,sans-serif}.nav a{text-decoration:none}.menu-toggle{display:none;border:1px solid var(--line);background:var(--ivory);color:var(--brown);padding:10px 13px;font-size:20px;border-radius:4px}.hero{min-height:650px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:50px;padding:55px 0 85px}.opening-note{display:inline-flex;align-items:center;gap:9px;padding:10px 14px;border:1px solid var(--line);background:var(--ivory);color:var(--orange);font:12px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;margin:0 0 20px}.opening-dot{width:8px;height:8px;border-radius:50%;background:var(--orange);display:inline-block}.eyebrow{font:12px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--orange)}h1{font-size:clamp(56px,8vw,100px);line-height:.98;margin:18px 0 16px;letter-spacing:-.05em}h1 .tamil{display:block;font-size:.62em;letter-spacing:0;color:var(--orange);margin-top:14px}.tag{font-size:clamp(19px,2.2vw,25px);margin:22px 0;color:var(--muted)}.intro{font:17px/1.8 Arial,sans-serif;max-width:520px;color:#675344}.cta{display:inline-block;margin-top:20px;padding:14px 22px;background:var(--brown);color:var(--ivory);text-decoration:none;font:13px Arial,sans-serif;letter-spacing:.08em}.art{min-height:440px;border-radius:48% 48% 12px 12px;background:radial-gradient(circle at 50% 40%,#f8df9c 0 18%,transparent 18.5%),linear-gradient(145deg,#e8bd66,#c86a2c);display:grid;place-items:center;position:relative;overflow:hidden}.art:before,.art:after{content:"";position:absolute;border:1px solid rgba(57,37,27,.35);border-radius:50%;width:76%;aspect-ratio:1}.art:after{width:58%}.cup{width:180px;height:145px;background:var(--ivory);border-radius:12px 12px 65px 65px;position:relative;box-shadow:0 22px 35px #713d2833;display:grid;place-items:center;font-size:48px;color:var(--brown);z-index:1}.cup:before{content:"";position:absolute;width:60px;height:65px;border:14px solid var(--ivory);border-left:0;border-radius:0 50% 50% 0;right:-48px;top:26px}.steam{position:absolute;top:90px;font-size:48px;color:#fff6dc;letter-spacing:12px;z-index:2}.section{padding:85px 0;border-top:1px solid var(--line)}.section h2{font-size:clamp(34px,5vw,54px);margin:12px 0 20px}.section p{font:16px/1.85 Arial,sans-serif;color:#675344;max-width:720px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:35px}.tile{background:var(--ivory);padding:28px;border:1px solid var(--line);min-height:190px}.tile .num{font:12px Arial,sans-serif;color:var(--orange);letter-spacing:.15em}.tile h3{font-size:24px;margin:20px 0 10px}.tile p{font-size:14px;margin:0}.quote{font-size:clamp(30px,5vw,58px);line-height:1.25;max-width:850px}.quote span{color:var(--orange)}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:24px;margin-top:28px}.contact-card{background:var(--ivory);border:1px solid var(--line);padding:28px}.contact-card h3{font-size:24px;margin:8px 0 12px}.contact-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.contact-actions a{display:inline-block;padding:12px 15px;text-decoration:none;font:13px Arial,sans-serif;letter-spacing:.04em}.contact-call{background:var(--brown);color:var(--ivory)}.contact-wa{background:#e7d7b8;color:var(--brown);border:1px solid var(--line)}.phone-number{font:18px Arial,sans-serif;font-weight:bold;letter-spacing:.04em;color:var(--brown)}.map-frame{width:100%;height:340px;border:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-decoration:none;background:linear-gradient(145deg,#e9c77f,#d78a43);color:var(--brown);border:1px solid var(--line)}.map-preview strong{font-size:28px;letter-spacing:.08em}.map-preview span:last-child{font:12px Arial,sans-serif;letter-spacing:.12em}.map-preview .pin{font-size:54px;color:var(--ivory)}.map-link{display:inline-block;margin-top:16px;color:var(--orange);font:14px Arial,sans-serif}footer{padding:35px 0;background:var(--brown);color:var(--cream);font:13px Arial,sans-serif}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.small{color:#d5c3a7}
-    @media(max-width:760px){.top{padding:14px 0;align-items:center}.brand{font-size:20px;gap:9px}.brand-mark{width:48px;height:48px}.menu-toggle{display:block}.nav{display:none;position:absolute;z-index:10;top:82px;left:5%;right:5%;padding:18px;background:var(--ivory);border:1px solid var(--line);box-shadow:0 12px 24px #39251b18;flex-direction:column;gap:18px;font-size:15px}.nav.open{display:flex}.hero{grid-template-columns:1fr;padding-top:25px;gap:22px;min-height:auto}.art{min-height:250px;max-height:280px}.grid,.contact-grid{grid-template-columns:1fr}.section{padding:48px 0}.map-frame{height:280px}h1{font-size:clamp(52px,15vw,78px)}.tag{margin:16px 0}.intro{font-size:16px;line-height:1.65}.cta{margin-top:12px;padding:13px 18px}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6efdf">
+<meta name="description" content="Paanagam — காபியும் >< கதையும். Tamil-rooted coffee, food and conversations. Opening shortly in Namakkal.">
+<meta property="og:title" content="Paanagam | பானகம்">
+<meta property="og:description" content="காபியும் >< கதையும் — Coffee, food and stories.">
+<meta property="og:type" content="website">
+<title>Paanagam | பானகம் — காபியும் >< கதையும்</title>
+<style>
+:root{--cream:#f6efdf;--paper:#fffaf0;--ink:#352319;--muted:#796654;--orange:#c7652c;--saffron:#e4b34e;--line:#e6d8c0;--green:#46533b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,"Noto Serif Tamil",serif}a{color:inherit}.shell{width:min(1160px,90%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(246,239,223,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navbar{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-size:24px;font-weight:bold}.brand svg{width:48px;height:48px}.brand small{display:block;font:10px Arial,sans-serif;letter-spacing:.28em;color:var(--muted);margin-top:3px}.links{display:flex;gap:30px;align-items:center;font:13px Arial,sans-serif}.links a{text-decoration:none}.links a:hover{color:var(--orange)}.links .visit{padding:12px 17px;background:var(--ink);color:var(--paper)}.toggle{display:none;border:1px solid var(--line);background:var(--paper);padding:9px 12px;color:var(--ink);font-size:20px}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center;min-height:680px;padding:66px 0 82px}.kicker{font:11px Arial,sans-serif;letter-spacing:.23em;text-transform:uppercase;color:var(--orange)}.status{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);background:var(--paper);padding:10px 14px;font:11px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--orange);margin-bottom:24px}.dot{width:7px;height:7px;border-radius:50%;background:var(--orange)}h1{font-size:clamp(64px,8.2vw,112px);line-height:.92;letter-spacing:-.065em;margin:18px 0 20px}h1 .tamil{display:block;color:var(--orange);font-size:.58em;letter-spacing:0;margin-top:18px}.tagline{font-size:clamp(21px,2.5vw,29px);color:var(--muted);margin:22px 0}.lead{max-width:520px;font:16px/1.9 Arial,sans-serif;color:#695747}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;text-decoration:none;font:12px Arial,sans-serif;letter-spacing:.1em}.primary{background:var(--ink);color:var(--paper)}.secondary{border:1px solid var(--line);background:var(--paper)}
+.hero-art{height:480px;position:relative;overflow:hidden;border-radius:48% 48% 12px 12px;background:radial-gradient(circle at 50% 38%,#f9dfa0 0 20%,transparent 20.5%),linear-gradient(145deg,#eac978,#cf753a);display:grid;place-items:center}.hero-art:before,.hero-art:after{content:"";position:absolute;width:80%;aspect-ratio:1;border:1px solid #70412455;border-radius:50%}.hero-art:after{width:61%}.cup{width:190px;height:150px;background:var(--paper);border-radius:12px 12px 65px 65px;display:grid;place-items:center;font-size:48px;box-shadow:0 25px 45px #5a2d1d30;position:relative;z-index:2}.cup:after{content:"";position:absolute;width:65px;height:70px;border:14px solid var(--paper);border-left:0;border-radius:0 50% 50% 0;right:-52px;top:27px}.steam{position:absolute;z-index:3;top:92px;color:#fff7df;font-size:45px;letter-spacing:12px}.seal{position:absolute;bottom:25px;right:20px;z-index:4;background:var(--paper);padding:14px 18px;border-radius:50%;font:10px/1.5 Arial,sans-serif;letter-spacing:.13em;text-align:center;color:var(--orange);transform:rotate(8deg)}
+section{padding:88px 0;border-top:1px solid var(--line)}.section-head{max-width:760px}.section-head h2{font-size:clamp(36px,5vw,58px);line-height:1.08;letter-spacing:-.04em;margin:14px 0 18px}.section-head p{font:15px/1.9 Arial,sans-serif;color:var(--muted)}.story{display:grid;grid-template-columns:.75fr 1.25fr;gap:70px;align-items:start}.story-mark{font-size:clamp(60px,9vw,115px);color:var(--orange);line-height:1}.story-copy{font:16px/2 Arial,sans-serif;color:#695747}.story-copy p{margin:0 0 18px}
+.experience{background:var(--paper)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}.card{border:1px solid var(--line);padding:27px;min-height:220px;background:#fffdf7}.card .number{font:11px Arial,sans-serif;letter-spacing:.16em;color:var(--orange)}.card h3{font-size:25px;margin:26px 0 12px}.card p{font:14px/1.8 Arial,sans-serif;color:var(--muted);margin:0}
+.manifesto{background:var(--ink);color:var(--cream);text-align:center;padding:90px 0}.manifesto .quote{font-size:clamp(30px,5vw,62px);line-height:1.35}.manifesto .quote span{color:var(--saffron)}.manifesto p{font:13px Arial,sans-serif;color:#d4c2a9;letter-spacing:.1em;margin-top:22px}
+.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:20px;margin-top:35px}.contact-panel{padding:30px;background:var(--paper);border:1px solid var(--line)}.contact-panel h3{font-size:28px;margin:12px 0}.contact-panel p{font:14px/1.8 Arial,sans-serif;color:var(--muted)}.phone{font:20px Arial,sans-serif;font-weight:bold;margin:18px 0}.contact-links{display:flex;flex-wrap:wrap;gap:10px}.contact-links a{padding:13px 15px;text-decoration:none;font:11px Arial,sans-serif;letter-spacing:.1em}.call{background:var(--ink);color:var(--paper)}.whatsapp{background:#e8dcc5;border:1px solid var(--line)}.map{min-height:330px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-decoration:none;background:linear-gradient(145deg,#e9c77f,#d17a3c);border:1px solid var(--line);text-align:center}.map .pin{font-size:52px;color:var(--paper)}.map strong{font-size:28px;letter-spacing:.12em}.map span:last-child{font:11px Arial,sans-serif;letter-spacing:.14em}
+footer{background:#281a13;color:var(--cream);padding:34px 0;font:12px Arial,sans-serif}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.foot small{display:block;color:#c9b79e;margin-top:8px}
+@media(max-width:760px){.navbar{height:72px}.brand{font-size:21px}.brand svg{width:42px;height:42px}.toggle{display:block}.links{display:none;position:absolute;top:72px;left:5%;right:5%;padding:20px;background:var(--paper);border:1px solid var(--line);box-shadow:0 15px 30px #35231918;flex-direction:column;align-items:stretch;gap:19px}.links.open{display:flex}.links .visit{text-align:center}.hero{grid-template-columns:1fr;gap:28px;padding:38px 0 52px;min-height:auto}.hero-art{height:290px;max-height:310px}.cup{transform:scale(.8)}.steam{top:35px}.seal{bottom:12px;right:12px}.story{grid-template-columns:1fr;gap:20px}.cards,.contact{grid-template-columns:1fr}section{padding:60px 0}.manifesto{padding:68px 0}.map{min-height:260px}h1{font-size:clamp(60px,17vw,88px)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style>
 </head>
 <body>
-  <header class="wrap top">
-    <a class="brand" href="#" aria-label="Paanagam home" style="text-decoration:none">
-      <svg class="brand-mark" viewBox="0 0 100 100" role="img" aria-label="Paanagam kolam emblem">
-        <g fill="none" stroke="#c86a2c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M50 12 C62 12 66 25 58 34 L50 42 L42 34 C34 25 38 12 50 12Z"/>
-          <path d="M88 50 C88 62 75 66 66 58 L58 50 L66 42 C75 34 88 38 88 50Z"/>
-          <path d="M50 88 C38 88 34 75 42 66 L50 58 L58 66 C66 75 62 88 50 88Z"/>
-          <path d="M12 50 C12 38 25 34 34 42 L42 50 L34 58 C25 66 12 62 12 50Z"/>
-          <path d="M50 29 L71 50 L50 71 L29 50Z"/>
-        </g><circle cx="50" cy="50" r="4" fill="#c86a2c"/>
-      </svg>
-      <span class="brand-copy">பானகம்<span>PAANAGAM</span></span>
-    </a>
-    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" onclick="const n=document.querySelector('.nav');const open=n.classList.toggle('open');this.setAttribute('aria-expanded',open?'true':'false');this.textContent=open?'×':'☰'">☰</button>
-    <nav class="nav" aria-label="Main navigation"><a href="#story">Our story</a><a href="#taste">The experience</a><a href="#connect">Connect</a></nav>
-  </header>
-  <main>
-    <section class="wrap hero">
-      <div>
-        <div class="opening-note"><span class="opening-dot"></span> Opening shortly</div><div class="eyebrow">Rooted in Tamil taste & togetherness</div>
-        <h1>Paanagam<span class="tamil">பானகம்</span></h1>
-        <div class="tag">காபியும் >< கதையும்</div>
-        <p class="intro">A welcoming place for familiar flavours, freshly brewed coffee and the conversations that make everyday moments special.</p>
-        <a class="cta" href="#story">DISCOVER PAANAGAM</a>
-      </div>
-      <div class="art" role="img" aria-label="Illustration of a traditional coffee cup">
-        <div class="steam">〰 〰</div><div class="cup">பா</div>
-      </div>
-    </section>
-    <section class="section" id="story">
-      <div class="wrap">
-        <div class="eyebrow">A little about us</div>
-        <h2>Good taste. Good company.</h2>
-        <p>Paanagam celebrates the warmth of Tamil food culture — the comfort of a cup of filter coffee, the joy of sharing a bite, and the stories that happen around the table. Our idea is simple: make everyday food moments feel welcoming, familiar and full of character.</p>
-      </div>
-    </section>
-    <section class="section" id="taste">
-      <div class="wrap">
-        <div class="eyebrow">Made for everyday moments</div>
-        <h2>Familiar favourites, served with warmth.</h2>
-        <div class="grid">
-          <article class="tile"><div class="num">01 / BREW</div><h3>Filter coffee</h3><p>A comforting South Indian classic, made for slow sips and good conversations.</p></article>
-          <article class="tile"><div class="num">02 / SHARE</div><h3>Food & bites</h3><p>Everyday favourites and satisfying bites inspired by the flavours we grew up with.</p></article>
-          <article class="tile"><div class="num">03 / GATHER</div><h3>Stories together</h3><p>A relaxed, friendly space where a quick stop can turn into a memorable moment.</p></article>
-        </div>
-      </div>
-    </section>
-    <section class="section" id="connect">
-      <div class="wrap">
-        <div class="eyebrow">The Paanagam spirit</div>
-        <div class="quote">“காபியும் <span>&gt;&lt;</span> கதையும்”<br><span>Every cup has a story.</span></div>
-        <p>Find Paanagam using our official Google Maps location. Tap below for the exact pin and directions.</p>
-        <div class="contact-grid">
-          <div class="contact-card">
-            <div class="eyebrow">Find Paanagam</div>
-            <h3>Visit Paanagam</h3>
-            <p>Call us or message us on WhatsApp for enquiries. Visit us using our exact Google Maps location.</p>
-            <div class="phone-number">+91 78717 97171</div>
-            <div class="contact-actions"><a class="contact-call" href="tel:+917871797171">CALL PAANAGAM</a><a class="contact-wa" href="https://wa.me/917871797171?text=Hello%20Paanagam" target="_blank" rel="noopener">WHATSAPP US</a></div>
-            <a class="map-link" href="https://maps.app.goo.gl/Kjg5vGpCoA4JEQfQ7?g_st=ac" target="_blank" rel="noopener">OPEN PAANAGAM LOCATION IN GOOGLE MAPS ↗</a>
-          </div>
-          <a class="map-frame map-preview" href="https://maps.app.goo.gl/Kjg5vGpCoA4JEQfQ7?g_st=ac" target="_blank" rel="noopener" aria-label="Open Paanagam exact location in Google Maps"><span class="pin">⌖</span><strong>PAANAGAM</strong><span>OPEN EXACT LOCATION & DIRECTIONS ↗</span></a>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer><div class="wrap foot"><div><strong>பானகம் · PAANAGAM</strong><div class="small" style="margin-top:8px">காபியும் >< கதையும்</div><div class="small" style="margin-top:8px">Opening shortly · Namakkal</div></div><div class="small">© <span id="year"></span> Paanagam. All rights reserved.</div></div></footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>{document.querySelector('.nav').classList.remove('open');const b=document.querySelector('.menu-toggle');b.setAttribute('aria-expanded','false');b.textContent='☰'}));</script>
-</body>
-</html>
+<header><div class="shell navbar">
+<a class="brand" href="#home" aria-label="Paanagam home">
+<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="#c7652c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M50 10C63 10 67 25 58 35L50 43 42 35C33 25 37 10 50 10Z"/><path d="M90 50C90 63 75 67 65 58L57 50 65 42C75 33 90 37 90 50Z"/><path d="M50 90C37 90 33 75 42 65L50 57 58 65C67 75 63 90 50 90Z"/><path d="M10 50C10 37 25 33 35 42L43 50 35 58C25 67 10 63 10 50Z"/><path d="M50 28L72 50 50 72 28 50Z"/></g><circle cx="50" cy="50" r="4" fill="#c7652c"/></svg>
+<span>பானகம்<small>PAANAGAM</small></span></a>
+<button class="toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+<nav class="links" aria-label="Main navigation"><a href="#story">Our story</a><a href="#experience">The experience</a><a href="#connect">Find us</a><a class="visit" href="#connect">CONNECT WITH US</a></nav>
+</div></header>
+<main id="home">
+<div class="shell hero">
+<div><div class="status"><span class="dot"></span> Opening shortly</div><div class="kicker">Tamil roots · Everyday warmth</div>
+<h1>Paanagam<span class="tamil">பானகம்</span></h1><div class="tagline">காபியும் >< கதையும்</div>
+<p class="lead">A welcoming place for familiar flavours, freshly brewed coffee and the conversations that make everyday moments special.</p>
+<div class="actions"><a class="btn primary" href="#story">DISCOVER PAANAGAM</a><a class="btn secondary" href="#connect">GET IN TOUCH</a></div></div>
+<div class="hero-art" role="img" aria-label="Illustration of a South Indian coffee tumbler"><div class="steam">〰 〰</div><div class="cup">பா</div><div class="seal">COFFEE<br>FOOD<br>STORIES</div></div>
+</div>
+<section id="story"><div class="shell story"><div><div class="kicker">Our story</div><div class="story-mark">பா.</div></div><div class="story-copy"><div class="section-head"><h2>Good taste.<br>Good company.</h2></div><p>Paanagam celebrates the warmth of Tamil food culture — the comfort of a cup of filter coffee, the joy of sharing a bite, and the stories that happen around the table.</p><p>Our idea is simple: create a friendly place where familiar flavours and everyday moments come together. Come for a cup, stay for a conversation.</p></div></div></section>
+<section class="experience" id="experience"><div class="shell"><div class="section-head"><div class="kicker">The Paanagam experience</div><h2>Made for the little moments that matter.</h2><p>From a quick coffee break to an unhurried catch-up, Paanagam is built around simple pleasures and warm hospitality.</p></div>
+<div class="cards"><article class="card"><div class="number">01 / BREW</div><h3>Filter coffee</h3><p>A South Indian favourite, made for slow sips, familiar aromas and a fresh start to the day.</p></article><article class="card"><div class="number">02 / SHARE</div><h3>Food & bites</h3><p>Comforting everyday food and satisfying bites inspired by the flavours we know and love.</p></article><article class="card"><div class="number">03 / GATHER</div><h3>Stories together</h3><p>A relaxed, welcoming space where a quick stop can turn into a memorable moment.</p></article></div></div></section>
+<div class="manifesto"><div class="shell"><div class="quote">“காபியும் <span>&gt;&lt;</span> கதையும்”</div><p>EVERY CUP HAS A STORY.</p></div></div>
+<section id="connect"><div class="shell"><div class="section-head"><div class="kicker">Connect with Paanagam</div><h2>We'd love to hear from you.</h2><p>For enquiries, call or message us. Use our Google Maps pin for directions.</p></div>
+<div class="contact"><div class="contact-panel"><div class="kicker">Say hello</div><h3>Talk to Paanagam</h3><p>Have a question or want to know more? Reach us by phone or WhatsApp.</p><div class="phone">+91 78717 97171</div><div class="contact-links"><a class="call" href="tel:+917871797171">CALL PAANAGAM</a><a class="whatsapp" href="https://wa.me/917871797171?text=Hello%20Paanagam" target="_blank" rel="noopener noreferrer">WHATSAPP US</a></div></div>
+<a class="map" href="https://maps.app.goo.gl/Kjg5vGpCoA4JEQfQ7?g_st=ac" target="_blank" rel="noopener noreferrer" aria-label="Open Paanagam location in Google Maps"><span class="pin">⌖</span><strong>PAANAGAM</strong><span>OPEN LOCATION & DIRECTIONS ↗</span></a></div></div></section>
+</main>
+<footer><div class="shell foot"><div><strong>பானகம் · PAANAGAM</strong><small>காபியும் >< கதையும் · Opening shortly</small></div><div>© <span id="year"></span> Paanagam. All rights reserved.</div></div></footer>
+<script>
+const toggle=document.querySelector('.toggle'),nav=document.querySelector('.links');
+toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰'});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='☰'}));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body></html>
